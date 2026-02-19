@@ -1,6 +1,11 @@
 spring:
   application:
     name: project
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/micro-prac-inhouse/protocol/openid-connect/certs
 
 server:
   port: 4042
