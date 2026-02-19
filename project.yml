@@ -1,11 +1,6 @@
 spring:
   application:
     name: project
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8080/realms/micro-prac-inhouse
 
 server:
   port: 4042
