@@ -3,4 +3,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://keycloak:8080/realms/micro-prac-inhouse
+          issuer-uri: http://localhost:8080/realms/micro-prac-inhouse/protocol/openid-connect/certs
